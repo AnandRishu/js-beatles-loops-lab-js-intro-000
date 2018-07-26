@@ -20,7 +20,7 @@ function johnLennonFacts () {
     updatedFacts.push(`${arrOfFacts[i]}!!!}`);
     i++;
   }
-  return(updatedFacts);
+  return updatedFacts;
 }
 
 function iLoveTheBeatles (num) {
