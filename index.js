@@ -1,12 +1,10 @@
 // add solution here
 function theBeatlesPlay (arrMusicians, arrInstruments) {
-  var newArray = new Array;
-  for (user in arrMusicians) {
-    for (inst in arrInstruments){
-      newArray.push(`${user} plays ${inst}`);
-    }
+  var listOfMusician = [];
+  for (var i = 0; i < arrMusicians.length; i++){
+    listOfMusician.push(`${arrMusicians[i]} plays ${arrInstruments[i]}`);
   }
-  return newArray;
+  return(listOfMusician);
 }
 
 function johnLennonFacts () {
