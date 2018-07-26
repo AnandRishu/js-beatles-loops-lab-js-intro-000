@@ -6,6 +6,7 @@ function theBeatlesPlay (arrMusicians, arrInstruments) {
       newArray.push(`${user} plays ${inst}`);
     }
   }
+  return newArray;
 }
 
 function johnLennonFacts () {
