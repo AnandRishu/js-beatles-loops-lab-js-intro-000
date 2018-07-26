@@ -4,7 +4,7 @@ function theBeatlesPlay (arrMusicians, arrInstruments) {
   for (var i = 0; i < arrMusicians.length; i++){
     listOfMusician.push(`${arrMusicians[i]} plays ${arrInstruments[i]}`);
   }
-  return(listOfMusician);
+  return listOfMusician;
 }
 
 function johnLennonFacts () {
