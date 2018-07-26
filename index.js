@@ -1,6 +1,6 @@
 // add solution here
-function theBeatlesPlay () {
-
+function theBeatlesPlay (arrMusicians, arrInstruments) {
+  
 }
 
 function johnLennonFacts () {
@@ -8,5 +8,5 @@ function johnLennonFacts () {
 }
 
 function iLoveTheBeatles () {
-  
+
 }
