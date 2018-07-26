@@ -17,7 +17,7 @@ function johnLennonFacts () {
   var updatedFacts = [];
   var i = 0;
   while (i < arrOfFacts.length) {
-    updatedFacts.push(`${arrOfFacts[i]} !!!}`);
+    updatedFacts.push(`${arrOfFacts[i]}!!!}`);
     i++;
   }
   return(updatedFacts);
